@@ -1,0 +1,31 @@
+
+body{
+
+    background-color: #21f5fe;
+    background-image: /*url("images/fond_dragon.jpg"),*/url(images/fond_blanc.jpeg);
+    background-attachment: fixed;
+    background-repeat: repeat;
+    width: 100%;
+    margin: auto;
+    color: black;
+
+}
+
+
+nav
+{
+    float: left;
+    width: 150px;
+    border: 1px solid black;
+}
+
+#pied_de_page_div{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: stretch;
+    height: 350px;
+}
+
+
